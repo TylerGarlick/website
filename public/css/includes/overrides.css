@@ -1,0 +1,19 @@
+form {
+  text-align: left;
+  background: #ffffff;
+  padding: 15px;
+}
+.inner {
+  vertical-align: top;
+}
+.inner-align-top {
+  display: block;
+  vertical-align: top;
+}
+textarea {
+  text-shadow: none;
+  /* Prevent inheritence from `body` */
+  box-shadow: none;
+  color: black;
+  height: 150px;
+}

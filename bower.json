@@ -1,0 +1,26 @@
+{
+  "name": "tylergarlick-website",
+  "version": "0.0.1",
+  "homepage": "https://github.com/TylerGarlick/website",
+  "authors": [
+    "Tyler Garlick <tjgarlick@gmail.com>"
+  ],
+  "description": "My website",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/libs",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.1.0",
+    "angular": "~1.2.12",
+    "angular-route": "~1.2.12",
+    "angular-redactor": "~1.0.0",
+    "lesshat": "~2.0.15"
+  }
+}

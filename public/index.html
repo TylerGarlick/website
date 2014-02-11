@@ -1,0 +1,28 @@
+<!doctype html>
+<html ng-app="app">
+<head>
+  <link href="css/app.css" rel="stylesheet" />
+  <title>Tyler Garlick | About Me</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+</head>
+<body>
+<nav class="navbar navbar-inverse" role="navigation">
+  <div class="container">
+    <ul class="nav navbar-nav pull-left">
+      <li><a href="#!/" class="navbar-brand">Tyler Garlick</a></li>
+    </ul>
+    <ul class="nav navbar-nav pull-right">
+      <li><a href="#!/">Home</a></li>
+      <li><a href="http://blog.tylergarlick.com" target="_blank">Blog</a></li>
+      <li><a href="pdf/resume.pdf" target="_blank">Resume</a></li>
+      <li><a href="#!/contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+<div class="container container-white">
+  <div ng-view></div>
+</div>
+<script src="js/libs.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
