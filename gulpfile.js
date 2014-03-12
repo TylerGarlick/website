@@ -58,7 +58,8 @@ var libs = [
   "./assets/libs/redactor/redactor.js",
   "./assets/libs/angular/angular.js",
   "./assets/libs/angular-route/angular-route.js",
-  "./assets/libs/angular-redactor/angular-redactor.js"
+  "./assets/libs/angular-redactor/angular-redactor.js",
+  "./assets/libs/angular-bootstrap/ui-bootstrap-tpls.js"
 ];
 
 gulp.task('concat-libs', function () {

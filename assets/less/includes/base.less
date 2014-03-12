@@ -1,14 +1,48 @@
 @import "/assets/libs/lesshat/build/lesshat.less";
 
-a,
-a:focus,
-a:hover {
-  color: #e6e6e6;
-}
-
 html, body {
   height: 100%;
-  background: url('../img/background.jpg') center center no-repeat;
+  //background: url('../img/background.jpg') center center no-repeat;
+}
+
+.navbar-wrapper {
+  margin-top: 20px;
+  .navbar {
+    z-index: 2000;
+    .box-shadow(0px 2px 10px rgba(20, 20, 20, 0.7));
+  }
+}
+
+.jumbotron-wrapper {
+  .jumbotron {
+    background-color: #759a3b;
+    padding-top: 120px;
+    margin-top: -120px;
+    min-height: 400px;
+    color: white;
+    .box-shadow(0px 0px 20px rgba(20, 20, 20, 0.7));
+  }
+}
+
+.carousel-wrapper {
+  margin-top: -120px;
+  margin-bottom: 60px;
+  z-index: 0;
+  .jumbotron {
+    padding: 0px;
+  }
+  img {
+    z-index: 0;
+  }
+  .carousel-custom {
+    min-height: 400px;
+  }
+  .carousel-caption {
+    p {
+      font-size: 21px;
+      line-height: 1.4;
+    }
+  }
 }
 
 .container-white {

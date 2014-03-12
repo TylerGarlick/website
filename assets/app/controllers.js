@@ -2,10 +2,25 @@
   'use strict';
 
   var homeController = function ($scope) {
+//    $scope.slides = [
+//      {
+//        image: 'http://placehold.it/2400x600',
+//        title: 'Relentless',
+//        text: "I'm the guy on your team that will come up with solutions and new ideas until the team is satisfied with the results.  I'm also the guy who will work hand and hand with the team until success is achieved.  "
+//      },
+//      {
+//        image: 'http://placehold.it/2400x600',
+//        title: 'Proven Leadership',
+//        text: ''
+//      },
+//      {
+//        image: 'http://placehold.it/2400x600',
+//        text: 'Some text'
+//      }
+//    ];
 
   };
   app.controller('HomeCtrl', ['$scope', homeController]);
-
 
   var contactCtrl = function ($scope) {
 

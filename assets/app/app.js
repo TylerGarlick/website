@@ -12,4 +12,4 @@
   };
 
   app.config(configuration);
-})(angular.module('app', ['ngRoute', 'angular-redactor']));
+})(angular.module('app', ['ngRoute', 'angular-redactor', 'ui.bootstrap']));
