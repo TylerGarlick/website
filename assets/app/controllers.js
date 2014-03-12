@@ -1,32 +1,38 @@
 (function (app) {
   'use strict';
 
+  var homeController = function ($scope) { };
+  app.controller('HomeCtrl', ['$scope', homeController]);
+
+  var contactCtrl = function ($scope) { };
+  app.controller('ContactCtrl', ['$scope', contactCtrl]);
+
+  var errorController = function ($scope) {
+
+  };
+  app.controller('ErrorCtrl', ['$scope', errorController]);
+
+  var GearStream = function ($scope) {};
+  app.controller('GearStream', ['$scope', GearStream]);
+
+})(angular.module('app'));
+
+
+(function (app) {
+  'use strict';
+
   var homeController = function ($scope) {
-//    $scope.slides = [
-//      {
-//        image: 'http://placehold.it/2400x600',
-//        title: 'Relentless',
-//        text: "I'm the guy on your team that will come up with solutions and new ideas until the team is satisfied with the results.  I'm also the guy who will work hand and hand with the team until success is achieved.  "
-//      },
-//      {
-//        image: 'http://placehold.it/2400x600',
-//        title: 'Proven Leadership',
-//        text: ''
-//      },
-//      {
-//        image: 'http://placehold.it/2400x600',
-//        text: 'Some text'
-//      }
-//    ];
+    $scope.data = [
+      {name: "Mtn. Dew Consumption", ounces: 144},
+      {name: "Mtn. Dew during project", ounces: 244}
+    ];
+
 
   };
   app.controller('HomeCtrl', ['$scope', homeController]);
 
-  var contactCtrl = function ($scope) {
-
-  };
+  var contactCtrl = function ($scope) { };
   app.controller('ContactCtrl', ['$scope', contactCtrl]);
-
 
   var errorController = function ($scope) {
 
@@ -34,4 +40,4 @@
   app.controller('ErrorCtrl', ['$scope', errorController]);
 
 
-})(angular.module('app'));
+})(angular.module('app-gearstream'));

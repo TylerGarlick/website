@@ -1,7 +1,6 @@
 'use strict';
 
 var gulp = require('gulp')
-  , gutil = require('gulp-util')
   , less = require('gulp-less')
   , concat = require('gulp-concat')
   , path = require('path')
@@ -59,7 +58,8 @@ var libs = [
   "./assets/libs/angular/angular.js",
   "./assets/libs/angular-route/angular-route.js",
   "./assets/libs/angular-redactor/angular-redactor.js",
-  "./assets/libs/angular-bootstrap/ui-bootstrap-tpls.js"
+  "./assets/libs/angular-bootstrap/ui-bootstrap-tpls.js",
+  "./assets/libs/d3/d3.js"
 ];
 
 gulp.task('concat-libs', function () {

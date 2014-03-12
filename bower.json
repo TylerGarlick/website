@@ -22,6 +22,7 @@
     "angular-route": "~1.2.12",
     "angular-redactor": "~1.0.0",
     "lesshat": "~2.0.15",
-    "angular-bootstrap": "~0.10.0"
+    "angular-bootstrap": "~0.10.0",
+    "d3": "~3.4.3"
   }
 }

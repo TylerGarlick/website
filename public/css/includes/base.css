@@ -39,6 +39,9 @@ body {
   font-size: 21px;
   line-height: 1.4;
 }
+.paragraph-spaced {
+  padding-bottom: 60px;
+}
 .container-white {
   color: white;
 }
